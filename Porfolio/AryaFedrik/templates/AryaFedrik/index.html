@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arya Fedrik Kairupan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'AryaFedrik/css/master.css' %}">
+  </head>
+  <body>
+    <div class="btn from-right"><a href="{% url 'AryaFedrik:about' %}">About Me</a></div>
+    <div class="btn from-right"><a href="https://github.com/Fedrik24">My Works!</a></div>
+    <div class="btn from-right"><a href="{% url 'AryaFedrik:contact' %}">Contact</a></div>
+    <div class="btn from-right"><a href="https://drive.google.com/file/d/1TV1u-c5-dY3Tb9R9FiNW9UIsswk8orFH/view?usp=sharing">Curriculum Vitae</a></div>
+  </body>
+</html>
